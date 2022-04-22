@@ -1,0 +1,101 @@
+/*==========|Geral|==========*/
+* {
+  margin:0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+body {
+  background: #f7f7f7;
+}
+
+/*==========|Header|==========*/
+.header {
+  padding:20px;
+  background: #161616;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navegacao{
+  gap: 45px;
+  display: flex;
+}
+.navegacao li a{
+  padding:40px 0;
+  display: inline-block;
+  color:#f7f7f7;
+  font-size:16px;
+  position: relative;
+}
+.navegacao li a:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: white;
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+.navegacao li a:hover {
+  color:white;
+}
+.navegacao li a:hover:after {
+  width: 100%;
+}
+
+/*==========|DropDown|==========*/
+.dropDown li a {
+  text-align: center;
+  padding:0;
+  margin:10px 15px 20px;
+}
+
+.navegacao ul {
+  display: none;
+  position:absolute;
+  background: #161616;
+  border-radius:4px;
+  border:1px solid white;
+}
+.navegacao li:hover ul{
+  display: block;
+  position:absolute;
+  top:101px;
+}
+
+/*==========|BANNER|==========*/
+.banner {
+  color:white;
+  padding:55px 0px 55px 0px;
+  border-top:4px solid #DC7313;
+  border-bottom:4px solid #DC7313;
+  background: #EA8E35;
+  text-align: center;
+}
+.banner h1 {
+  margin: 0 auto 20px;
+  max-width: 400px;
+  font-size:36px;
+}
+.frase p {
+  margin: 0 auto;
+  max-width: 600px;
+  font-style: italic;
+  font-size:14px;
+}
+.frase p::after {
+  content:"";
+  display: block;
+  width: 90px;
+  height: 2px;
+  background: #2c2c2c;
+  margin:20px auto 15px auto;
+}
+.frase cite {
+  display:block;
+  margin-top:20px;
+  font-style: normal;
+}
