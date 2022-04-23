@@ -8,6 +8,8 @@
 }
 body {
   background: #f7f7f7;
+  color:#141414;
+  height:3000px;
 }
 
 /*==========|Header|==========*/
@@ -58,7 +60,7 @@ body {
   position:absolute;
   background: #161616;
   border-radius:4px;
-  border:1px solid white;
+  border:1px solid black;
 }
 .navegacao li:hover ul{
   display: block;
@@ -98,4 +100,47 @@ body {
   display:block;
   margin-top:20px;
   font-style: normal;
+}
+
+/*==========|Conteúdo|==========*/
+.subtitulo {
+  margin-top:70px;
+  text-align: center;
+  font-size:26px;
+  position:relative;
+}
+.subtitulo:after {
+  content:"";
+  display: block;
+  width:8px;
+  height:30px;
+  background: #DC7313;
+  position:absolute;
+  left:580px;
+  top:0px;
+}
+.txt{
+  margin:0 auto;
+  text-align: center;
+  font-size:16px;
+  margin-top:20px;
+  max-width:920px;
+  position: relative;
+}
+.txt:after{
+  content:"";
+  display:block;
+  width:7px;
+  height:18px;
+  background:#4A9C97;
+  position:absolute;
+  bottom:100px;
+  left:-5px;
+  top:0;
+}
+.conteudo-txt {
+  max-width: 920px;
+  margin:50px auto;
+  display:flex;
+  gap:30px;
 }
