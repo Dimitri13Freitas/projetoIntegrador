@@ -27,7 +27,7 @@ body {
 .navegacao li a{
   padding:40px 0;
   display: inline-block;
-  color:#f7f7f7;
+  color:#ebebeb;
   font-size:16px;
   position: relative;
 }
@@ -70,7 +70,7 @@ body {
 
 /*==========|BANNER|==========*/
 .banner {
-  color:white;
+  color:#f7f7f7;
   padding:55px 0px 55px 0px;
   border-top:4px solid #DC7313;
   border-bottom:4px solid #DC7313;
@@ -106,18 +106,20 @@ body {
 .subtitulo {
   margin-top:70px;
   text-align: center;
-  font-size:26px;
+  font-size:28px;
   position:relative;
 }
 .subtitulo:after {
-  content:"";
-  display: block;
-  width:8px;
-  height:30px;
-  background: #DC7313;
-  position:absolute;
+  content:'';
+  width:90px;
+  height:19px;
+  display:inline-block;
+  background:#4A9C97;
+  border-radius:2px;
+  top:15px;
   left:580px;
-  top:0px;
+  position: absolute;
+  z-index: -1;
 }
 .txt{
   margin:0 auto;
@@ -127,20 +129,12 @@ body {
   max-width:920px;
   position: relative;
 }
-.txt:after{
-  content:"";
-  display:block;
-  width:7px;
-  height:18px;
-  background:#4A9C97;
-  position:absolute;
-  bottom:100px;
-  left:-5px;
-  top:0;
-}
 .conteudo-txt {
   max-width: 920px;
   margin:50px auto;
   display:flex;
   gap:30px;
+}
+.conteudo-txt img{
+  border-radius:4px;
 }
