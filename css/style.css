@@ -9,12 +9,13 @@
 body {
   background: #f7f7f7;
   color:#141414;
-  height:3000px;
 }
 p {
   color:#141414;
   font-size:16px;
 }
+
+
 /*Utilitario*/
 .txt {
   text-align: center;
@@ -170,7 +171,7 @@ p {
  font-size: 28px;
  color:#141414;
 }
-.content-2 article h2::after {
+.content-2 section h2::after {
   content:'';
   display: block;
   height: 2px;
@@ -178,10 +179,10 @@ p {
   background: #e7e7e7;
   margin:10px 0px;
 }
-.content-2 article p {
+.content-2 section p {
   margin-bottom:20px;
 }
-.content-2 article footer small {
+.content-2 section footer small {
   width:250px;
   margin-bottom:10px;
   text-align: left;
@@ -189,10 +190,91 @@ p {
 
 /*==========|Footer|==========*/
 .footer-content {
-  /* display: flex; */
-  margin-top:120px;
-background:#141414;
+  margin-top:100px;
+  border-top:4px solid #DC7313;
+  background: #141414;
+  color:white;
+  display:flex;
+  justify-content: space-evenly;
+  align-self: center;
+  padding:50px;
 }
-.mapaDoSite {
-  color:#ffffff;
+.mapaSite {
+  display:flex;
+  gap:30px;
+}
+.footer-content h3 {
+  margin-bottom:20px;
+  font-size:28px;
+  color: white;
+}
+.mapaSite-1 ul li a{
+  display: inline-block;
+  color:#3f3f3f;
+  padding:10px 0px;
+}
+.mapaSite-1 ul li{
+  margin:5px 0;
+}
+.mapaSite-1 ul li a::after{
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: #aaaaaa;
+  margin-top: 4px;
+  transition: 0.3s;
+}
+.mapaSite-1 ul li a:hover:after {
+  width: 100%;
+}
+.mapaSite-1 ul li a:hover{
+  color:#aaaaaa;
+}
+.movimentos-mapa {
+  margin-top:12px;
+}
+.movimentos-mapa ul li a {
+  display: inline-block;
+  color: #3f3f3f;
+  padding:10px 0;
+}
+.movimentos-mapa h4{
+  margin-bottom:20px;
+  font-size: 18px;
+  color:#141414;
+}
+.movimentos-mapa ul li a::after{
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: #aaaaaa;
+  margin-top: 4px;
+  transition: 0.3s;
+}
+.movimentos-mapa ul li a:hover:after{
+  width:100%;
+}
+.movimentos-mapa ul li a:hover {
+  color:#aaaaaa;
+}
+.movimentos-mapa ul li {
+  margin: 5px 0px;
+}
+.redesSociais ul{
+  margin-top:50px;
+  display: flex;
+  gap:20px;
+  align-items: center;
+  justify-content: center;
+}
+.redesSociais ul li {
+  padding:10px;
+  border: #EA8E35 solid 4px;
+}
+.copy {
+  text-align: center;
+  background:#EA8E35;
+  padding:25px;
 }
