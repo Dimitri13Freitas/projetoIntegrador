@@ -94,6 +94,9 @@ p {
   position:absolute;
   top:101px;
 }
+.dropDown li:hover {
+  background-color: #1a1a1a;
+}
 
 /*==========|BANNER|==========*/
 .banner-mov h1:after {
