@@ -304,6 +304,7 @@ p {
 .redesSociais ul li:hover {
  border-radius: 2px;
  border:#00747C solid 4px;
+ transform: translateY(-4px);
 }
 .copy {
   text-align: center;
@@ -313,18 +314,42 @@ p {
 
 /*==========|Abstracionismo|==========*/
 .abs-section {
-  margin-top:70px;
+  margin-top:60px;
   display: flex;
   gap: 20px;
 }
 .abs-section .txt-article {
   margin-top:70px;
 }
-.abs-section section h2 {
+.abs-section article h2 {
   margin:20px 0px 10px 0px;
   font-size:24px;
   text-align: left;
 }
-.abs-section section h2:after {
+.abs-section article h2:after {
   margin:5px 0px 0px 2px;
 }
+.abs-caracteristicas h2 {
+  max-width: 450px;
+  margin-top:50px;
+  font-size: 30px;
+  text-align: left;
+}
+.abs-caracteristicas h2:after{
+  margin: 10px 0px;
+}
+.abs-caracteristicas p {
+  margin-top:20px;
+  max-width: 700px;
+}
+.abs-caracteristicas ul{
+  max-width: 300px;
+  margin:30px 0px 0px 30px;
+}
+.abs-caracteristicas ul li{
+  padding:10px;
+}
+.abs-caracteristicas ul li:nth-child(2n+1){
+  background: #4A9C97;
+}
+
