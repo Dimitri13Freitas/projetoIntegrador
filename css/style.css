@@ -53,27 +53,14 @@ p {
   display: flex;
 }
 .navegacao li a{
-  padding:40px 0;
+  padding: 40px 0;
   display: inline-block;
   color:#ebebeb;
   font-size:16px;
   position: relative;
 }
-.navegacao li a:after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 0px;
-  background: white;
-  margin-top: 4px;
-  transition: 0.3s;
-  position: absolute;
-}
 .navegacao li a:hover {
-  color:white;
-}
-.navegacao li a:hover:after {
-  width: 100%;
+  color:#4A9C97;
 }
 
 /*==========|DropDown|==========*/
@@ -239,18 +226,6 @@ p {
 .mapaSite-1 ul li{
   margin:5px 0;
 }
-.mapaSite-1 ul li a::after{
-  content: "";
-  display: block;
-  height: 2px;
-  width: 0px;
-  background: #aaaaaa;
-  margin-top: 4px;
-  transition: 0.3s;
-}
-.mapaSite-1 ul li a:hover:after {
-  width: 100%;
-}
 .mapaSite-1 ul li a:hover{
   color:#aaaaaa;
 }
@@ -266,18 +241,6 @@ p {
   margin-bottom:20px;
   font-size: 18px;
   color:#141414;
-}
-.movimentos-mapa ul li a::after{
-  content: "";
-  display: block;
-  height: 2px;
-  width: 0px;
-  background: #aaaaaa;
-  margin-top: 4px;
-  transition: 0.3s;
-}
-.movimentos-mapa ul li a:hover:after{
-  width:100%;
 }
 .movimentos-mapa ul li a:hover {
   color:#aaaaaa;
@@ -299,12 +262,9 @@ p {
   padding:10px 10px 9px;
   border: #EA8E35 solid 4px;
   border-radius: 10px;
-  transition:0.3s;
 }
 .redesSociais ul li:hover {
- border-radius: 2px;
  border:#00747C solid 4px;
- transform: translateY(-4px);
 }
 .copy {
   text-align: center;
@@ -352,4 +312,3 @@ p {
 .abs-caracteristicas ul li:nth-child(2n+1){
   background: #4A9C97;
 }
-
