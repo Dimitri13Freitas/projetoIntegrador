@@ -312,3 +312,35 @@ p {
 .abs-caracteristicas ul li:nth-child(2n+1){
   background: #4A9C97;
 }
+.vertentes .txt{
+  max-width:600px;
+  margin:0 auto;
+}
+.vertente-content {
+  margin-top:50px;
+  text-align: center;
+}
+.vertente-content p {
+  margin:10px auto 20px;
+  max-width:400px;
+}
+.vertente-content h2 {
+  margin-top:20px;
+  font-size: 26px;
+}
+.vertente-car {
+  display: flex;
+  font-size: 13px;
+  gap:15px;
+  justify-content: center;
+}
+.vertente-car li {
+  background:#00747C;
+  padding:5px 8px;
+  border-radius:5px;
+  align-content: center;
+}
+.vertentes-flex {
+  display: flex;
+  gap:50px;
+}
