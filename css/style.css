@@ -272,7 +272,7 @@ p {
   padding:25px;
 }
 
-/*==========|Abstracionismo|==========*/
+/*==========|Abstracionismo by Dimitri|==========*/
 .abs-section {
   margin-top:60px;
   display: flex;
@@ -343,4 +343,218 @@ p {
 .vertentes-flex {
   display: flex;
   gap:50px;
+}
+
+/*==========|Fauvismo by Lucas Vieira|==========*/
+.Margens{
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.titulo1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 90px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.textoOrigem{
+  text-align: center;
+}
+
+.titulo2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.titulolista{
+  margin-bottom: 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.lista li{
+  list-style:decimal;
+  text-align: left;
+}
+.centro .lista{
+  display:block;
+  margin:0 auto;
+}
+
+
+
+
+/* CÉZANNIANA */
+
+.titulo3{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 120px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align:left;
+
+}
+
+.txtCezan{
+  /* background-color: #DC7313;  */
+ text-align: left;
+ padding-left: 400px;
+ padding-top: 120px;
+ padding-bottom: 120px;
+}
+
+.cezanimg{
+  float: left;
+}
+
+/* ANALÍTICA */
+
+.titulo4{
+  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-right: 140px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align:right;
+
+}
+
+.txtanalit{
+  text-align: right;
+  padding-right: 400px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+}
+
+.analitimg{
+  float:right;
+}
+
+/* SINTÉTICA */
+
+.titulo5{
+  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-left: 120px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+.txtsintet{
+ /* background-color: #DC7313; */
+ text-align: left;
+ padding-left: 400px;
+ padding-top: 130px;
+ padding-bottom: 130px;
+
+}
+
+.sintetimg{
+  float: left;
+}
+
+
+.pintores{
+   margin-top: 50px;
+   text-align: center;
+
+}
+
+/* CSS Quem somos */
+
+.Main{
+  margin-left:300px;
+  margin-right:300px;
+}
+
+/* dimitri */
+
+.titulo{
+  /* background-color: aquamarine; */
+  text-align: left;
+  margin-top: 50px;;
+}
+
+.biografiaD{
+  /* background-color: #DC7313; */
+  height: 224px;
+  margin-top:50px;
+  margin-left: 300px;
+  text-align: left;
+
+
+}
+
+.foto{
+  width: 268px;
+  float: left;
+  /* background-color: blue; */
+
+}
+
+/* dany */
+
+.tituloDANY{
+  text-align: right;
+}
+
+.fotoDa{
+  width: 268px;
+  float: right;
+}
+
+.biografiaDANY{
+  height: 224px;
+  /* background-color: #DC7313; */
+  margin-right: 300px;
+  text-align: right;
+  margin-top:50px;
+}
+
+/* lucaspereira */
+
+.tituloLUCAS{
+  text-align: left;
+}
+.fotoLu{
+  width: 268px;
+  float: left;
+}
+.biografiaLUCAS{
+  margin-top: 50px;
+  height: 224px;
+  margin-left: 300px;
+  text-align: left;
+}
+
+/* lucasvieira */
+.tituloLUC{
+  text-align: right;
+}
+.fotoLuc{
+  width:268px;
+  float: right;
+}
+.biografiaLUC{
+  height: 224px;
+  margin-top: 50px;
+  margin-right: 300px;
+  text-align: right;
+}
+
+/* mathues */
+.tituloMAT{
+  text-align: left;
+}
+.fotoMat{
+  width: 268px;
+  float:left;
+}
+.biografiaMAT{
+  margin-top: 60px;
+  height: 224px;
+  margin-left: 300px ;
+  text-align: left;
 }
