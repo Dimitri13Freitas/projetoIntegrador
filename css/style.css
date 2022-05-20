@@ -616,6 +616,6 @@ thead tr {
 }
 .vangogh p {
   float: right;
-  max-width: 600px;
-  margin: 60px 0px 60px 2px;
+  max-width: 590px;
+  margin-top:60px;
 }
