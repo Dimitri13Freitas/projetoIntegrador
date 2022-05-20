@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*==========|Geral by dimitri|==========*/
 * {
   margin:0;
@@ -589,4 +590,32 @@ thead tr {
   height: 224px;
   margin-left: 300px ;
   text-align: left;
+}
+
+/*==========|Expressionismo by Lucas Pereira|==========*/
+.exp h2{
+  text-align: left;
+}
+.exp h2::after {
+  margin:5px 0px 0px 2px;
+}
+.exp img{
+  margin: 30px auto 60px auto ;
+  display:block ;
+}
+.exp-lista ul li{
+  padding: 5px;
+  list-style: disc;
+}
+.vangogh h3 {
+  font-size: 30px;
+  margin-left: 75px;
+}
+.vangogh img {
+  margin: 5px;
+}
+.vangogh p {
+  float: right;
+  max-width: 600px;
+  margin: 60px 0px 60px 2px;
 }
