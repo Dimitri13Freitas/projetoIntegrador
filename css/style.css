@@ -357,17 +357,16 @@ p {
   display:flex;
   justify-content: center;
   gap:20px;
+  margin-bottom:150px;
 }
 .artistas-bio-button a {
   display:block;
   padding:11px 164px;
   background: #4A9C97;
-  border: 4px solid #4A9C97;
   margin-top:40px;/*ajuste*/
   font-size:18px;
   font-weight: bold;
   color:#141414;
-  transition:0.2s;
 }
 .artistas-bio-button a:hover {
   background-color: #00747C;
