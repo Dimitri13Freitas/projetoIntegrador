@@ -621,3 +621,70 @@ thead tr {
   max-width: 590px;
   margin-top:60px;
 }
+
+/*==========|Expressionismo by Dany Jonathan|==========*/
+.sectionSur {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.principais {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.SurBrasil {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.container-2 {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.pImage {
+  font-size: 12px;
+  color: #00747C;
+}
+
+.fonteLeft {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 14px;
+  border-radius: 10px;
+  color: #aaaaaa;
+  margin-bottom: 10px;
+}
+
+.fonteLeft small a {
+  color: #aaaaaa;
+  font-size: 14px;
+}
+
+.fonteLeft small a:hover {
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+article footer small {
+  font-size: 14px;
+}
+
+.colorLi {
+  background-color: #4A9C97;
+  color: #f7f7f7;
+}
+
+aside ul li {
+  padding: 5px;
+
+}
+
+article ul li {
+  padding: 5px;
+}
