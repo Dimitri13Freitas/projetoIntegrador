@@ -14,7 +14,9 @@ body {
 p {
   font-size:16px;
 }
-
+img {
+  display: block;
+}
 /*==========|Utilitário by Dimitri|==========*/
 .img {
   border: white solid 5px;
@@ -311,7 +313,7 @@ p {
 .abs-caracteristicas ul li{
   padding:10px;
 }
-.abs-caracteristicas ul li:nth-child(2n+1){
+.abs-caracteristicas ul li:nth-child(odd){
   background: #4A9C97;
 }
 .vertentes .txt{
@@ -372,7 +374,7 @@ p {
   background-color: #00747C;
 }
 .artistas-bio-button h2 {
-  margin:30px 0px 20px 0px;
+  margin:10px 0px 20px 0px;
 }
 .artistas-bio-button p {
   max-width: 400px;
@@ -612,6 +614,7 @@ thead tr {
 }
 .vangogh img {
   margin: 5px;
+  display: inline;
 }
 .vangogh p {
   float: right;
