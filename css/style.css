@@ -440,78 +440,112 @@ thead tr {
   margin-bottom: 20px;
   text-align: center;
 }
-.titulolista{
+ .titulolista{
+  text-align: center;
   margin-bottom: 20px;
   margin-top: 50px;
-  text-align: center;
-}
+ }
 .lista li{
   list-style:decimal;
   text-align: left;
 }
-.centro .lista{
+.caracteristicas{
   display:block;
-  margin:0 auto;
+  margin-left: 270px;
+  margin-right: 190px;
 }
 /* CÉZANNIANA */
 .titulo3{
   margin-top: 50px;
   margin-bottom: 20px;
-  margin-left: 120px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align:left;
 }
 .txtCezan{
- text-align: left;
- padding-left: 400px;
- padding-top: 120px;
- padding-bottom: 120px;
+  margin-top: 105px;
+  margin-left:400px;
+  text-align: left;
+  margin-bottom: 180px;
 }
 .cezanimg{
   float: left;
+}
+
+.smallleft{
+  display: block;
+  text-align: left;
+  color: #4A9C97;
+  margin-top:5px;
 }
 
 /* ANALÍTICA */
 .titulo4{
   margin-bottom: 20px;
   margin-top: 50px;
-  margin-right: 140px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align:right;
 }
 .txtanalit{
+  margin-top:130px;
+  margin-right: 400px;
   text-align: right;
-  padding-right: 400px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  margin-bottom: 170px;
 
 }
 .analitimg{
   float:right;
 }
 
+.smallanalitc{
+  text-align: right;
+  display:block;
+  color: #4A9C97;
+  margin-top: 5px;
+}
+
+
 /* SINTÉTICA */
 .titulo5{
   margin-bottom: 20px;
   margin-top: 50px;
-  margin-left: 120px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
 }
 .txtsintet{
- text-align: left;
- padding-left: 400px;
- padding-top: 130px;
- padding-bottom: 130px;
-
+    margin-top: 120px;
+    margin-left:400px;
+    text-align: left;
+    margin-bottom: 180px;
 }
+
 .sintetimg{
   float: left;
 }
-.pintores{
-   margin-top: 50px;
-   text-align: center;
 
+.smallsintetic{
+  display: block;
+  text-align: left;
+  color: #4A9C97;
+  margin-top: 5px;
+}
+
+.pintores{
+   display: block;
+   margin:0 auto;
+   width:125px;
+
+}
+
+.titulolista2{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.caracteristicas{
+  display: block;
+  margin:auto;
+  width:260px;
 }
 
 /* CSS Quem somos */
@@ -596,6 +630,7 @@ thead tr {
   text-align: left;
 }
 
+
 /*==========|Expressionismo by Lucas Pereira|==========*/
 .exp h2{
   text-align: left;
@@ -666,17 +701,17 @@ thead tr {
   text-decoration: underline;
   font-size: 14px;
 }
-article footer small {
-  font-size: 14px;
-}
 .colorLi {
   background-color: #4A9C97;
   color: #f7f7f7;
 }
-aside ul li {
+/* article footer small {
+  font-size: 14px;
+} */
+/* aside ul li {
   padding: 5px;
 
 }
-article ul li {
+article ul li { 
   padding: 5px;
-}
+} */
