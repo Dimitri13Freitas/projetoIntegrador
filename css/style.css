@@ -704,18 +704,18 @@ thead tr {
   background-color: #4A9C97;
   color: #f7f7f7;
 }
-/* article footer small {
+.principais article footer small {
   font-size: 14px;
-} */
-/* aside ul li {
+}
+.principais aside ul li {
   padding: 5px;
 
 }
-article ul li { 
+.principais article ul li {
   padding: 5px;
-} */
-/*==========|Contato by Dany Jonathan and Dimitri|==========*/
+}
 
+/*==========|Contato by Dany Jonathan and Dimitri|==========*/
 .contato-bg {
   margin:100px auto;
   background-color: #141414;
