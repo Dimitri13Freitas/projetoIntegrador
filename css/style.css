@@ -512,10 +512,10 @@ thead tr {
   text-align: left;
 }
 .txtsintet{
-    margin-top: 120px;
-    margin-left:400px;
-    text-align: left;
-    margin-bottom: 180px;
+  margin-top: 120px;
+  margin-left:400px;
+  text-align: left;
+  margin-bottom: 180px;
 }
 
 .sintetimg{
@@ -530,10 +530,9 @@ thead tr {
 }
 
 .pintores{
-   display: block;
-   margin:0 auto;
-   width:125px;
-
+  display: block;
+  margin:0 auto;
+  width:125px;
 }
 
 .titulolista2{
@@ -715,3 +714,55 @@ thead tr {
 article ul li { 
   padding: 5px;
 } */
+/*==========|Contato by Dany Jonathan and Dimitri|==========*/
+
+.contato-bg {
+  margin:100px auto;
+  background-color: #141414;
+  padding:80px;
+  border:none;
+  max-width: 400px;
+}
+.contato-bg h2 {
+  color:white;
+  max-width:400px;
+  text-align: left;
+  margin:0;
+}
+.contato-bg h2::after {
+  background: #DC7313;
+  margin:10px 0;
+}
+.contato-bg label {
+  display: block;
+  color:white;
+}
+.contato-bg input {
+  min-width:300px;
+  margin-top:5px;
+  margin-bottom:10px;
+  padding:8px 10px 8px 5px;
+  font-size: 16px;
+  border:3px solid #00747C;
+}
+.contato-bg textarea {
+  padding:8px 10px 8px 5px;
+  font-size:16px;
+  min-width:300px;
+  min-height: 150px;
+  margin-top:5px;
+  margin-bottom:25px;
+  border:3px solid #00747C;
+  resize: none;
+}
+.contato-bg button {
+  display: block;
+  padding:10px 45px;
+  font-size:16px;
+  background: #DC7313;
+  border: none;
+  font-weight: bold;
+}
+.contato-bg button:hover {
+  background: #EA8E35;
+}
