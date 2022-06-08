@@ -18,6 +18,9 @@ img {
   display: block;
 }
 /*==========|Utilitário by Dimitri|==========*/
+.remove {
+  display:none;
+}
 .img {
   border: white solid 5px;
   border-radius:4px;
