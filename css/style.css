@@ -386,8 +386,6 @@ img {
   max-width: 400px;
 }
 
-
-
 /*==========|Tabela by Dimitri|==========*/
 .tabela strong {
   color:#00747C;
@@ -446,6 +444,30 @@ td {
   gap:20px;
 }
 
+/*==========|1922 by Dimitri|==========*/
+.eventoArte .subtitulo{
+  text-align: left;
+  max-width: 380px;
+}
+.eventoArte .subtitulo::after{
+  margin: 8px 0;
+}
+.eventoArte img {
+  margin-bottom:10px;
+}
+.consequencias-content {
+  display: flex;
+}
+.consequencias{
+  align-self: flex-start;
+}
+.consequencias .subtitulo{
+  margin-top: 0;
+  text-align: left;
+}
+.consequencias .subtitulo::after{
+  margin: 8px 0;
+}
 /*==========|Cubismo by Lucas Vieira|==========*/
 .Margens{
   margin-left: 300px;
