@@ -456,7 +456,9 @@ td {
   margin-bottom:10px;
 }
 .consequencias-content {
+  margin-top:70px;
   display: flex;
+  gap: 10px;
 }
 .consequencias{
   align-self: flex-start;
@@ -467,6 +469,10 @@ td {
 }
 .consequencias .subtitulo::after{
   margin: 8px 0;
+}
+.consequencias .fonte small{
+  margin-top:8px;
+  text-align: left;
 }
 /*==========|Cubismo by Lucas Vieira|==========*/
 .Margens{
