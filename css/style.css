@@ -423,7 +423,18 @@ thead tr {
   background: #EA8E35;
 }
 
-/*==========|Fauvismo by Lucas Vieira|==========*/
+/*==========|Fauvismo by Dimitri|==========*/
+.fauvismo p{
+  margin:0;
+}
+.fauvismo-content p {
+  margin-bottom:0;
+  text-align: left;
+}
+.footer-fauvismo small {
+  margin-top:10px;
+}
+/*==========|Cubismo by Lucas Vieira|==========*/
 .Margens{
   margin-left: 300px;
   margin-right: 300px;
