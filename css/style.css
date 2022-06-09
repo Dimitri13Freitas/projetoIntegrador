@@ -422,6 +422,9 @@ tfoot tr td{
 thead tr {
   background: #EA8E35;
 }
+td {
+  max-width:130px;
+}
 
 /*==========|Fauvismo by Dimitri|==========*/
 .fauvismo p{
@@ -434,6 +437,15 @@ thead tr {
 .footer-fauvismo small {
   margin-top:10px;
 }
+
+/*==========|Galeria by Dimitri|==========*/
+.galeria {
+  margin-top:50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:20px;
+}
+
 /*==========|Cubismo by Lucas Vieira|==========*/
 .Margens{
   margin-left: 300px;
