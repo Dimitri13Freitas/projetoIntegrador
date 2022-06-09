@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*==========|Geral by Dimitri|==========*/
+/*==========|Geral|==========*/
 * {
   margin:0;
   padding: 0;
@@ -17,7 +17,7 @@ p {
 img {
   display: block;
 }
-/*==========|Utilitário by Dimitri|==========*/
+/*==========|Utilitário|==========*/
 .remove {
   display:none;
 }
