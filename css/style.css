@@ -474,6 +474,17 @@ td {
   margin-top:8px;
   text-align: left;
 }
+.consequencias p+ p{
+  margin-top:20px;
+}
+.destaques {
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+}
+.destaques section p {
+  max-width:200px;
+}
 /*==========|Cubismo by Lucas Vieira|==========*/
 .Margens{
   margin-left: 300px;
