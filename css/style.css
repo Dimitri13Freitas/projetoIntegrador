@@ -76,7 +76,6 @@ img {
 }
 .navegacao ul {
   display: none;
-  position:absolute;
   background: #161616;
   border-radius:4px;
   border:1px solid black;
@@ -412,9 +411,12 @@ thead tr th{
   color:white;
 }
 tbody tr td{
+  padding:5px;
   border: 2px #DC7313 solid;
 }
 tfoot tr td{
+  padding:5px;
+
   border: 2px #DC7313 solid;
 }
 thead tr {
@@ -422,6 +424,7 @@ thead tr {
 }
 td {
   max-width:130px;
+  font-size:14px;
 }
 
 /*==========|Fauvismo by Dimitri|==========*/
@@ -444,7 +447,7 @@ td {
   gap:20px;
 }
 
-/*==========|1922 by Dimitri|==========*/
+/*==========|1922 by Dimitri and Lucas Pereira|==========*/
 .eventoArte .subtitulo{
   text-align: left;
   max-width: 380px;
@@ -474,7 +477,7 @@ td {
   margin-top:8px;
   text-align: left;
 }
-.consequencias p+ p{
+.consequencias p + p{
   margin-top:20px;
 }
 .destaques {
@@ -492,7 +495,6 @@ td {
   margin-right: 300px;
 }
 .titulo1{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 90px;
   margin-bottom: 20px;
   text-align: center;
@@ -501,7 +503,6 @@ td {
   text-align: center;
 }
 .titulo2{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
@@ -524,7 +525,6 @@ td {
 .titulo3{
   margin-top: 50px;
   margin-bottom: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align:left;
 }
 .txtCezan{
@@ -550,7 +550,6 @@ td {
 .titulo4{
   margin-bottom: 20px;
   margin-top: 50px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align:right;
 }
 .txtanalit{
@@ -578,7 +577,6 @@ td {
 .titulo5{
   margin-bottom: 20px;
   margin-top: 50px;
-  font-family: Arial, Helvetica, sans-serif;
   text-align: left;
 }
 .txtsintet{ 
@@ -630,7 +628,6 @@ td {
   color:#141414;
   height: 224px;
   display: inline-block;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin-top:20px;
   margin-left:20px;
   text-align: left;
@@ -649,7 +646,6 @@ td {
   color:#141414;
   height: 224px;
   display: inline-block;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin-top:20px;
   margin-right: 20px;
   text-align: right;
