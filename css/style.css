@@ -139,7 +139,7 @@ img {
   font-style: normal;
 }
 
-/*==========|Conteúdo Home by Dimitri|==========*/
+/*==========|Home by Dimitri|==========*/
 .container {
   max-width:920px;
   margin: 0 auto;
@@ -622,8 +622,7 @@ td {
   width:260px;
 }
 
-/* CSS Quem somos */
-
+/*==========|Quem somos by Lucas Vieira|==========*/
 .texto {
   color:#141414;
   height: 224px;
@@ -771,7 +770,7 @@ td {
   margin-top:60px;
 }
 
-/*==========|Expressionismo by Dany Jonathan|==========*/
+/*==========|Surrealismo by Dany Jonathan|==========*/
 .sectionSur {
   display: flex;
   justify-content: space-around;
