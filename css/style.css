@@ -446,6 +446,9 @@ td {
   grid-template-columns: 1fr 1fr;
   gap:20px;
 }
+.galeria section p {
+  margin:5px 0 0 5px;
+}
 
 /*==========|1922 by Dimitri and Lucas Pereira|==========*/
 .eventoArte .subtitulo{
