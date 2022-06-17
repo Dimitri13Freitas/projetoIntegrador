@@ -416,7 +416,6 @@ tbody tr td{
 }
 tfoot tr td{
   padding:5px;
-
   border: 2px #DC7313 solid;
 }
 thead tr {
@@ -493,16 +492,13 @@ td {
 }
 
 /*==========|Cubismo by Lucas Vieira|==========*/
-.Margens{
-  margin-left: 300px;
-  margin-right: 300px;
-}
 .titulo1{
   margin-top: 90px;
   margin-bottom: 20px;
   text-align: center;
 }
 .textoOrigem{
+  margin-bottom: 20px;
   text-align: center;
 }
 .titulo2{
@@ -523,6 +519,8 @@ td {
   display:block;
   width: 450px;
   margin-left: 1px;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 /* CÉZANNIANA */
 .titulo3{
@@ -531,8 +529,6 @@ td {
   text-align:left;
 }
 .txtCezan{
-  max-width: 500px;
-  max-height: 379px;
   margin-top: 100px;
   margin-left:400px;
   text-align: left;
@@ -541,14 +537,12 @@ td {
 .cezanimg{
   float: left;
 }
-
 .smallleft{
   display: block;
   text-align: left;
   color: #4A9C97;
   margin-top:8px;
 }
-
 /* ANALÍTICA */
 .titulo4{
   margin-bottom: 20px;
@@ -556,193 +550,132 @@ td {
   text-align:right;
 }
 .txtanalit{
-  max-width: 500px;
-  max-height: 379px;
   margin-top: 120px;
-  margin-right: 400px; 
+  margin-right: 400px;
   text-align: right;
   margin-bottom: 170px;
-
 }
 .analitimg{
   float:right;
 }
-
 .smallanalitc{
   text-align: right;
   display:block;
   color: #4A9C97;
   margin-top: 8px;
 }
-
-
 /* SINTÉTICA */
 .titulo5{
   margin-bottom: 20px;
   margin-top: 50px;
   text-align: left;
 }
-.txtsintet{ 
-    max-width: 500px;
-    max-height: 379px;
-    margin-top: 110px;
-    margin-left:400px;
-    text-align: left;
-    margin-bottom: 180px;
+.txtsintet{
+  margin-top: 110px;
+  margin-left:400px;
+  text-align: left;
+  margin-bottom: 180px;
 }
-
 .sintetimg{
   float: left;
 }
-
 .smallsintetic{
   display: block;
-  text-align: left; 
+  text-align: left;
   color: #4A9C97;
   margin-top: 8px;
 }
-
 .titulopintores{
   margin-top: 200px;
 }
-
 .pintores {
-   display: block;
-   margin:0 auto;
-   width:150px;
-
+  display: block;
+  margin:0 auto;
+  width:150px;
 }
-
 .titulolista2{
   text-align: center;
   margin-bottom: 20px;
   margin-top: 50px;
 }
-
 .caracteristicas{
   display: block;
   margin:auto;
   width:260px;
 }
 
-/*==========|Quem somos by Lucas Vieira|==========*/
-.texto {
-  color:#141414;
-  height: 224px;
-  display: inline-block;
-  margin-top:20px;
-  margin-left:20px;
-  text-align: left;
+/*==========|QuemSomos by Lucas Pereira|==========*/
+.center{
+  justify-items: center;
 }
-
-.info li{
- list-style:none;
+.container-dimitri{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: left;
 }
-
-.textoinfo{
-  margin:10px;
+.paginas{
+  display: flex;
+  gap: 5px;
+  justify-content: left;
 }
-
-.texto2{
-  width: 450px;
-  color:#141414;
-  height: 224px;
-  display: inline-block;
-  margin-top:20px;
-  margin-right: 20px;
-  text-align: right;
+.paginas li{
+  border-radius: 5px;
+  background-color: #00747C;
+  padding: 5px;
 }
-
-.info2 li{
-  list-style: none;
+.paginas li a{
+  color: #ebebeb;
 }
-
-.textoinfo2{
-  margin:10px;
-
+.meutitulo{
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
-
-.Main{
-  margin-left:300px;
-  margin-right:300px;
+.mover{
+  margin-left: 20px;
 }
-
-/* dimitri */
-.titulo{
-  text-align: left;
-  margin-top: 50px;;
-}
-.biografiaD{
-  height: 224px;
-  margin-top:50px;
-  margin-left: 300px;
-  text-align: left;
-}
-.foto{
-  width: 268px;
-  float: left;
-}
-
-/* dany */
-.tituloDANY{
-  text-align: right;
-}
-.fotoDa{
-  width: 268px;
-  float: right;
-}
-.biografiaDANY{
-  height: 224px;
-  margin-right: 300px;
-  text-align: right;
-  margin-top:50px;
-}
-
-/* lucaspereira */
-.tituloLUCAS{
-  text-align: left;
-}
-.fotoLu{
-  width: 268px;
-  float: left;
-}
-.biografiaLUCAS{
-  margin-top: 50px;
-  height: 224px;
-  margin-left: 300px;
-  text-align: left;
-}
-
-/* lucasvieira */
-.tituloLUC{
-  text-align: right;
-}
-.fotoLuc{
-  width:268px;
-  float: right;
-}
-.biografiaLUC{
-  height: 224px;
-  margin-top: 50px;
-  margin-right: 300px;
-  text-align: right;
-}
-
-/* mathues */
-.tituloMAT{
-  text-align: left;
-}
-.fotoMat{
-  width: 268px;
-  float:left;
-}
-.biografiaMAT{
+.container-dany{
+  margin-bottom: 100px;
+  align-items: center;
   margin-top: 60px;
-  height: 224px;
-  margin-left: 300px ;
-  text-align: left;
+  display: flex;
 }
-
+.titulodany{
+  margin-bottom: 10px;
+  margin-top: 30px;
+  text-align: right;
+}
+.textodany li{
+  text-align: right;
+}
+.meutitulo2{
+  text-align: right;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.paginas2{
+  gap: 5px;
+  justify-content:right;
+  display:flex;
+}
+.paginas2 li{
+  padding: 5px;
+  background-color: #00747C;
+  border-radius: 5px;
+}
+.paginas2 li a{
+  color:#ebebeb;
+  text-align: right;
+}
+.todoarticle{
+  margin-right: 20px;
+}
+.matheus{
+  text-decoration: line-through;
+  color: #3f3f3f;
+}
 
 /*==========|Expressionismo by Lucas Pereira|==========*/
 .exp h2{
@@ -823,7 +756,6 @@ td {
 }
 .principais aside ul li {
   padding: 5px;
-
 }
 .principais article ul li {
   padding: 5px;
