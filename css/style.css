@@ -468,6 +468,9 @@ td {
 .consequencias{
   align-self: flex-start;
 }
+.tst {
+  margin-bottom:15px;
+}
 .consequencias .subtitulo{
   margin-top: 0;
   text-align: left;
