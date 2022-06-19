@@ -83,7 +83,7 @@ img {
 .navegacao li:hover ul{
   display: block;
   position:absolute;
-  top:101px;
+  top:90px;
 }
 .dropDown li:hover {
   background-color: #1a1a1a;
@@ -441,8 +441,8 @@ td {
 /*==========|Galeria by Dimitri|==========*/
 .galeria {
   margin-top:50px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
   gap:20px;
 }
 .galeria section p {
@@ -607,7 +607,7 @@ td {
   width:260px;
 }
 
-/*==========|QuemSomos by Lucas Pereira|==========*/
+/*==========|QuemSomos by Lucas Vieira|==========*/
 .center{
   justify-items: center;
 }
